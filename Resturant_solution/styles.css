@@ -1,0 +1,24 @@
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+}
+
+#video-container {
+    overflow: hidden; /* Hide any overflow content */
+    max-height: 350px;
+}
+
+video {
+    width: 100%; /* Make the video fill the container width */
+    max-height: 100%; /* Make the video fill the container height */
+    object-fit: cover; /* Crop the video to maintain aspect ratio and cover the container */
+    display: block; /* Remove default inline styling */
+}
+
+.card img {
+    max-height: 250px;
+    max-width: 450px;
+}
